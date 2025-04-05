@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Checker - Lokoja Market Days</title>
+    <meta name="description"
+        content="Check the next and last market days in Lokoja Market. Stay updated on market schedules easily with Market Checker.">
+    <meta name="keywords"
+        content="Lokoja market, market schedule, market days, next market day, last market day, Lokoja events, market checker">
+    <meta name="author" content="Your Name">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body class="bg-gray-100 font-sans ">
+    <header class="bg-white">
+        <div class="text-center container mx-auto px-6 flex justify-between p-2 ">
+            <h1 class="md:text-3xl font-bold text-orange-500 text-lg">Market Checker</h1>
+        <button class="bg-orange-500 md:p-1 px-2 text-white rounded-lg text-sm md:text-md md:px-4 font-bold transition duration-300 ease-in-out transform active:scale-95 focus:outline-none ">Contact Us</button>
+        </div>
+    </header>
+
+    <div class="container mx-auto px-6">
+        <p class="text-sm text-gray-600 mt-2">Note that the market date updates automatically.</p>
+
+        <div>
+            <div class=" mt-4">
+                <div class="md:flex justify-between mb-2 grid">
+                    <h2 class=" font-bold text-2xl">🛍️  Lokoja Market Open Date</h2>
+                    <div class="flex gap-3 justify-center  mt-4">
+                        <p class="text-xs font-medium">Next Market Day: <span id="next-market-day"
+                                class="font-bold text-green-600 bg-green-300/10 p-2 rounded-2xl">Loading...</span></p>
+                        <p class="text-xs font-medium ">Last Market Day: <span id="last-market-day"
+                                class="font-bold text-red-600 bg-red-300/10 p-2 rounded-2xl">Loading...</span></p>
+                    </div>
+                </div>
+                <span class=" font-bold text-sm text-blue-400">More Infor:</span>
+                <p class=" text-justify">
+                    Lokoja, the capital of Kogi State, Nigeria, is home to several vibrant and culturally significant
+                    markets, including Kpata Market, New Market (International Market), and the Old Market. These
+                    markets are essential to the local economy, attracting traders and buyers from surrounding towns and
+                    even neighboring states.
+
+                    One of the most unique features of the Lokoja market system is its 5-day interval market cycle. This
+                    traditional trading pattern allows market days to rotate every five days rather than sticking to
+                    specific weekdays. As a result, locals plan their shopping and trading activities around these
+                    intervals.
+
+                    The Lokoja market is bustling with various goods ranging from fresh produce, foodstuffs, clothing,
+                    household items, electronics, and more. On market days, the city becomes even more lively, with
+                    increased transportation, vendor activity, and community interaction.
+                </p>
+                
+            </div>
+        </div>
+
+        <footer class="text-center mt-8 text-gray-500">
+            <p>&copy; 2025 Market Checker | Lokoja</p>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
